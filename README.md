@@ -32,3 +32,7 @@ https://www.eclipse.org/downloads/
 ## Baixa e descopacte na pasta do projeto como "tomcat5.5"
 https://archive.apache.org/dist/tomcat/tomcat-5/v5.5.26/bin/apache-tomcat-5.5.26.zip
 
+
+## Baixa e descopacte na pasta do projeto como "mysql-connector-java"
+## Baixa jabva
+https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-java-5.1.49.zip
