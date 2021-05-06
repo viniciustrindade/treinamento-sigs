@@ -29,10 +29,10 @@ https://www.oracle.com/br/java/technologies/javase/javase7-archive-downloads.htm
 ## Extraia o eclipse IDE nessa pasta do projeto como "eclipse"
 https://www.eclipse.org/downloads/
 
-## Baixa e descopacte na pasta do projeto como "tomcat5.5"
+## Baixa e descompacte na pasta do projeto como "tomcat5.5"
 https://archive.apache.org/dist/tomcat/tomcat-5/v5.5.26/bin/apache-tomcat-5.5.26.zip
 
 
-## Baixa e descopacte na pasta do projeto como "mysql-connector-java"
-## Baixa jabva
+## Baixa e descompacte na pasta do projeto como "mysql-connector-java"
+## Baixa o jdbc
 https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-java-5.1.49.zip
