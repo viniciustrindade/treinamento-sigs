@@ -3,6 +3,7 @@
 
 ## Faça o checkout da pasta do treinamento para seu desktop
 git@github.com:viniciustrindade/treinamento-sigs.git
+ou baixe https://github.com/viniciustrindade/treinamento-sigs/archive/refs/heads/main.zip
 
 ## Utilize o mysql de treinamento ou instale o docker
 ### Os acessos do Mysql de treinamento sera passado na apresentação.
