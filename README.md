@@ -1,16 +1,18 @@
 # treinamento-sigs
 ## Instale o GIT
 
-## Instale o Docker
-https://docs.docker.com/docker-for-windows/install/
-
 ## Faça o checkout da pasta do treinamento para seu desktop
 git@github.com:viniciustrindade/treinamento-sigs.git
 
-##  Execute um container docker com o banco de dados mysql
+## Utilize o mysql de treinamento ou instale o docker
+### Os acessos do Mysql de treinamento sera passado na apresentação.
+### Instale o Docker
+https://docs.docker.com/docker-for-windows/install/
+
+###  Execute um container docker com o banco de dados mysql
 docker-compose up
 
-## Verifique se esta conectando
+### Verifique se esta conectando
 http://localhost:8080/?server=db&username=root
 
 ##  Instale o dbeaver 
@@ -25,6 +27,9 @@ PORT: 3306
 
 ## Instale o oracle jdk-7u80-windows-x64.exe (precisa de cadastro no site da oracle)
 https://www.oracle.com/br/java/technologies/javase/javase7-archive-downloads.html
+ ou
+https://nuvem.ufba.br/s/3MHgeaCqXQHLfS9 (windows)
+https://nuvem.ufba.br/s/JBAoZkA5mW04EMo (linux)
 
 ## Extraia o eclipse IDE nessa pasta do projeto como "eclipse"
 https://www.eclipse.org/downloads/
