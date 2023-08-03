@@ -32,7 +32,7 @@ public class TestarFuncionarioCRUD {
 		System.out.println("Atualizando funcionario");
 		
 		Funcionario funcionarioUpdate = new Funcionario();
-		funcionarioUpdate.setNome("Samuel");
+		funcionarioUpdate.setNome("Samuel Farias");
 		funcionarioUpdate.setUsuario("samuel.farias");
 		funcionarioUpdate.setSenha("9876543210");
 		funcionarioUpdate.setId(3L);
