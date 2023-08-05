@@ -14,6 +14,7 @@ import br.com.treinamento.servlet.modelo.Contato;
 public class ContatoDao {
 
 	private Connection conection;
+	List<Contato> contatos = new ArrayList<Contato>();
 
 	public ContatoDao() {
 		this.conection = new ConnectionFactory().getConnection();
@@ -197,6 +198,14 @@ public class ContatoDao {
 		} catch (SQLException e) {
 			throw new RuntimeException("Falha ao Remover");
 		}
+	}
+
+	public List<Contato> getContatos() {
+		return listarContatos();
+	}
+
+	public void setContatos(List<Contato> contatos) {
+		this.contatos = contatos;
 	}
 
 	
