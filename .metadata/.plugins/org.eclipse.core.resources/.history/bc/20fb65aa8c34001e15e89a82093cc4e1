@@ -1,0 +1,13 @@
+package br.com.caelum.jdbc.test;
+
+
+import java.sql.SQLException;
+
+public class TesteBusca {
+
+	public static void main(String[] args) throws SQLException {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

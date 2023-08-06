@@ -1,0 +1,15 @@
+package br.com.caelum.jdbc.models.DAO;
+
+
+import java.sql.Connection;
+
+import br.com.caelum.jdbc.ConnFactory;
+
+public class ContatoDao {
+
+	private Connection connection;
+	
+	public ContatoDao() {
+		this.connection = new ConnFactory().getConnection();
+	}
+}
