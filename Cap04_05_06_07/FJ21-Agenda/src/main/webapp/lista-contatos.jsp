@@ -44,15 +44,13 @@
 				<fmt:formatDate value="${cont.dataNascimento.time}" pattern="dd/MM/yyyy"/>
 			</td>
 			<td>
-				<a href="editarContato" >
+				<a href="adiciona-contato.jsp?id=${cont.id}">
 					<input type="submit" value="Editar"/>
 				</a>	
 				
 				<a href="removeContato?id=${cont.id}">
 					<input type="submit" value="Excluir"/>
 				</a>
-				
-				
 				
 			</td>
 		</tr>  
