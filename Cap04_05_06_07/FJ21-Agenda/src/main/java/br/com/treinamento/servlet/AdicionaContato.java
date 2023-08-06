@@ -51,16 +51,20 @@ public class AdicionaContato extends HttpServlet {
 		contato.setEmail(email);
 		contato.setDataNascimento(dataNascimento);
 
-		// salva o contato ContatoDao dao = new ContatoDao(); dao.adicionar(contato);
+		// salva o contato 
+		ContatoDao dao = new ContatoDao(); 
+		dao.adicionar(contato);
 
-		// imprime o nome do contato que foi adicionado out.println("<html>");
-		out.println("<head>");
-		out.println("<title> Sucesso </title>");
-		out.println("</head>");
-		out.println("<body>");
-		out.println("Contato	" + contato.getNome() + "	adicionado	com	sucesso");
-		out.println("</body>");
-		out.println("</html>");
+		// imprime o nome do contato que foi adicionado 
+		/*
+		 * out.println("<html>"); out.println("<head>");
+		 * out.println("<title> Sucesso </title>"); out.println("</head>");
+		 * out.println("<body>"); out.println("Contato	" + contato.getNome() +
+		 * "	adicionado	com	sucesso"); out.println("</body>");
+		 * out.println("</html>");
+		 */
+		
+		response.sendRedirect("lista-contatos.jsp");
 
 	}
 

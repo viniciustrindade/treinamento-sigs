@@ -18,7 +18,7 @@
 		<url-pattern>/hello</url-pattern>
 	</servlet-mapping>
 
-
+	<!-- SERVLET PARA ADICIONAR -->
 	<servlet>
 		<servlet-name>AdicionaContato</servlet-name>
 		<servlet-class>br.com.treinamento.servlet.AdicionaContato</servlet-class>
@@ -28,19 +28,29 @@
 		<url-pattern>/adicionaContato</url-pattern>
 	</servlet-mapping>
 	
+	<!-- SERVLET PARA REMOVER -->
+	<servlet>
+		<servlet-name>RemoveContato</servlet-name>
+		<servlet-class>br.com.treinamento.servlet.RemoveContato</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RemoveContato</servlet-name>
+		<url-pattern>/removeContato</url-pattern>
+	</servlet-mapping>
+	
 	<error-page>
 		<exception-type>java.lang.Exception</exception-type>
-		<location>/error.html</location>
+		<location>/error.jsp</location>
 	</error-page>
 	
 	<error-page>
 		<error-code>404</error-code>
-		<location>/404.html</location>
+		<location>/404.jsp</location>
 	</error-page>
 	
 	<error-page>
 		<error-code>500</error-code>
-		<location>/500.html</location>
+		<location>/500.jsp</location>
 	</error-page>
 	
 

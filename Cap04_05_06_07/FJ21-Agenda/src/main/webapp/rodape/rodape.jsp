@@ -9,7 +9,7 @@
 <div style="
 		background-color: #f2f2f2; 
 		bottom: 0;
-        position: fixed;
+        position: fluid;
         width: 100%;
         text-align: center;">
 	<hr color="#022F75"/>

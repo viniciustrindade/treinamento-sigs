@@ -25,10 +25,11 @@
 			<th>E-mail</th>
 			<th>Endereço</th>
 			<th>Data de nascimento</th>
+			<th>Ações</th>
 		</tr>	
 		<c:forEach var="cont" items="${dao.contatos}" varStatus="id">
-		<tr bgcolor="#${id.count % 2 == 0 ? '34bdeb' : 'ffffff'}">
-			<td>${id.count}</td>
+		<tr bgcolor="#${id.count % 2 == 0 ? 'd4e4fc' : 'ffffff'}">
+			<td>${cont.id}</td>
 			<td>${cont.nome}</td>
 			<td>
 				<c:choose>
@@ -42,11 +43,45 @@
 			<td>
 				<fmt:formatDate value="${cont.dataNascimento.time}" pattern="dd/MM/yyyy"/>
 			</td>
+			<td>
+				<a href="editarContato" >
+					<input type="submit" value="Editar"/>
+				</a>	
+				
+				<a href="removeContato?id=${cont.id}">
+					<input type="submit" value="Excluir"/>
+				</a>
+				
+				
+				
+			</td>
 		</tr>  
 		</c:forEach>
 
 	</table>
 	
+	<form action="adiciona-contato.jsp" method="get" style="padding: 10px;">
+		<fieldset style="width: 10%; padding: 10px">
+			<input type="submit" value="Novo contato" />
+		</fieldset>
+	</form>
+	<form action="index.jsp" method="get" style="padding: 10px;">
+		<fieldset style="width: 10%; padding: 10px">
+			<input type="submit" value="Voltar" />
+		</fieldset>
+	</form>	
+	
+	
 	<c:import url="rodape/rodape.jsp" />
 </body>
+
+
+
+
+
+
+
+
+
+
 </html>
