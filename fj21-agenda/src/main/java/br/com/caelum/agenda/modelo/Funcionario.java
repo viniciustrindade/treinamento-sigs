@@ -1,4 +1,4 @@
-package br.com.caelum.jdbc.modelo;
+package br.com.caelum.agenda.modelo;
 
 public class Funcionario {
 	private Long id;

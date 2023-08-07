@@ -29,4 +29,8 @@
 	<error-code>404</error-code>
 	<location>/404.html</location>
   </error-page>
+  
+  <welcome-file-list>
+	<welcome-file>bemvindo.jsp</welcome-file>
+  </welcome-file-list>
 </web-app>
