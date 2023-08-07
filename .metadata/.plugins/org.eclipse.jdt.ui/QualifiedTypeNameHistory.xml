@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="br.com.caelum.jdbc.models.Contatos"/>
-    <fullyQualifiedTypeName name="java.util.Calendar"/>
-    <fullyQualifiedTypeName name="br.com.caelum.jdbc.models.DAO.ContatoDao"/>
-    <fullyQualifiedTypeName name="java.sql.Connection"/>
-    <fullyQualifiedTypeName name="br.com.caelum.jdbc.ConnFactory"/>
-</qualifiedTypeNameHistroy>
