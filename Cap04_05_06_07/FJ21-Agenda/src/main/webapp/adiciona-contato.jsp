@@ -9,11 +9,17 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@	taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
 
+<%@	taglib tagdir="/WEB-INF/tags" prefix="treina"%>
+
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
 <title>Add contato</title>
+
+	<link href="css/jquery-ui.css" rel="stylesheet">
+	<script	src="js/jquery.js"></script>
+	<script	src="js/jquery-ui.js"></script>
 </head>
 <body>
 
@@ -61,17 +67,18 @@
 		<c:otherwise>
 
 			<form action="adicionaContato" method="post" style="padding: 10px;">
+			
 
 				<fieldset>
 					<legend style="font-weight: bold;">Contato</legend>
 					Nome: <input type="text" name="nome" style="padding: 10px;" /> <br />
 
-					E-mail: <input type="text" name="email" style="padding: 10px;" />
-					<br /> Endereço: <input type="text" name="endereco"
-						style="padding: 10px;" /> <br /> Data de nascimento: <input
-						type="text" name="dataNascimento" placeholder="dd/MM/yyyy"
-						style="padding: 10px;" /> <br /> <input type="submit"
-						value="Gravar" style="padding: 10px;" />
+					E-mail: <input type="text" name="email" style="padding: 10px;" /> <br /> 
+					Endereço: <input type="text" name="endereco" style="padding: 10px;" /> <br /> 
+					Data de nascimento: <treina:campoData id="dataNascimento"/>:       <!-- <input type="text" name="dataNascimento" placeholder="dd/MM/yyyy" style="padding: 10px;" /> <br /> --> 
+					
+					<input type="submit" value="Gravar" style="padding: 10px;" />
+					<c:out value="${validaCampos}"/>
 				</fieldset>
 			</form>
 

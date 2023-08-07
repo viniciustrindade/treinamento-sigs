@@ -31,6 +31,12 @@ public class AdicionaContato extends HttpServlet {
 		String email = request.getParameter("email");
 		String endereco = request.getParameter("endereco");
 		String dataTexto = request.getParameter("dataNascimento");
+		
+		if(nome.trim().isEmpty() || email.trim().isEmpty() || endereco.trim().isEmpty() || dataTexto.trim().isEmpty()) {
+			request.setAttribute("validaCampos", "Todos os campos sao obrigatorios");
+			response.sendRedirect("adiciona-contato.jsp");
+		}
+		
 
 		Calendar dataNascimento = null;
 
