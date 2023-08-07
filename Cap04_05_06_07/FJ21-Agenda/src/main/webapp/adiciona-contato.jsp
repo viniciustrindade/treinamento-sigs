@@ -53,9 +53,9 @@
 				<fieldset>
 					<legend style="font-weight: bold;">Editar Contato</legend>
 					
-					Nome: <input value="<%=contatoUpdate.getNome()%> " type="text" name="nome" style="padding: 10px;" /> <br /> 
-					E-mail: <input value="<%=contatoUpdate.getEmail()%>" type="text" name="email" style="padding: 10px;" /> <br /> 
-					Endereço: <input value="<%=contatoUpdate.getEndereco()%>" type="text" name="endereco" style="padding: 10px;" /> <br /> 
+					Nome: <input value="<%=contatoUpdate.getNome()%> " type="text" name="nome" style="padding: 10px;" required="required"/> <br /> 
+					E-mail: <input value="<%=contatoUpdate.getEmail()%>" type="text" name="email" style="padding: 10px;" required="required"/> <br /> 
+					Endereço: <input value="<%=contatoUpdate.getEndereco()%>" type="text" name="endereco" style="padding: 10px;" required="required"/> <br /> 
 					Data de nascimento: <input value="<%=formataData.format(contatoUpdate.getDataNascimento().getTime()) %>" type="text" name="dataNascimento" placeholder="dd/MM/yyyy"
 						style="padding: 10px;" /> <br /> 
 					<input type="submit" value="Atualizar" style="padding: 10px;" />
@@ -71,10 +71,10 @@
 
 				<fieldset>
 					<legend style="font-weight: bold;">Contato</legend>
-					Nome: <input type="text" name="nome" style="padding: 10px;" /> <br />
+					Nome: <input type="text" name="nome" style="padding: 10px;" required="required"/> <br />
 
-					E-mail: <input type="text" name="email" style="padding: 10px;" /> <br /> 
-					Endereço: <input type="text" name="endereco" style="padding: 10px;" /> <br /> 
+					E-mail: <input type="text" name="email" style="padding: 10px;" required="required"/> <br /> 
+					Endereço: <input type="text" name="endereco" style="padding: 10px;" required="required" /> <br /> 
 					Data de nascimento: <treina:campoData id="dataNascimento"/>:       <!-- <input type="text" name="dataNascimento" placeholder="dd/MM/yyyy" style="padding: 10px;" /> <br /> --> 
 					
 					<input type="submit" value="Gravar" style="padding: 10px;" />
