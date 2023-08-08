@@ -22,8 +22,10 @@ public class AdicionaContatoLogica implements Logica{
 		ContatoDao dao = new ContatoDao();
 		PrintWriter out = response.getWriter();
 		
+		System.out.println(idNovoOuAntigo);
+		
 		//se for um ID nulo ou vazio - se trata de um contato novo
-		if(idNovoOuAntigo.trim().isEmpty() || idNovoOuAntigo == null) {
+		if(idNovoOuAntigo.trim().isEmpty() || idNovoOuAntigo == null || idNovoOuAntigo.equals("0")) {
 			
 
 			String nome = request.getParameter("nome");

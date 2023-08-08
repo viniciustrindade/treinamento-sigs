@@ -41,7 +41,7 @@
 		</c:when>
 		<c:otherwise>
 		
-			<form action="mvc?logica=AdicionaContatoLogica" method="post" style="padding: 10px;">
+			<form action="mvc?logica=AdicionaContatoLogica&id=${0}" method="post" style="padding: 10px;">
 			<fieldset>
 				<legend style="font-weight: bold;">Contato</legend>
 				Nome: <input type="text" name="nome" style="padding: 10px;" required="required" /> <br /> 
