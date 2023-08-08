@@ -56,7 +56,7 @@ public class Contato {
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 		
 		return "{id: " + id + ", nome: " + nome + ", email: " + email + ", endereco: " + endereco
-				+ ", dataNascimento: " + sdf.format(getDataNascimento().getTime()) + "}";
+				+ ", dataNascimento: " + dataNascimento != null ? sdf.format(dataNascimento.getTime()) : "" + "}";
 	}
 
 }

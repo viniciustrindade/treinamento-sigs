@@ -149,10 +149,12 @@ public class ContatoDao {
 				contato.setEmail(rs.getString("email"));
 				contato.setEndereco(rs.getString("endereco"));
 
-				// montando a data através do Calendar
-				Calendar data = Calendar.getInstance();
-				data.setTime(rs.getDate("dataNascimento"));
-				contato.setDataNascimento(data);
+				if(rs.getDate("dataNascimento") != null) {
+					// montando a data através do Calendar
+					Calendar data = Calendar.getInstance();
+					data.setTime(rs.getDate("dataNascimento"));
+					contato.setDataNascimento(data);
+				}
 
 				// adicionando o objeto à lista
 				contatos.add(contato);
