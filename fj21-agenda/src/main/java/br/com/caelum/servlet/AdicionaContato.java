@@ -56,13 +56,12 @@ public class AdicionaContato  extends HttpServlet{
 										contato.setEmail(email);
 										contato.setDataNascimento(dataNascimento);
 										//	salva	o	contato
-										ContatoDAO dao=null;
-										try {
-											dao = new	ContatoDAO();
-										} catch (ClassNotFoundException e) {
+										ContatoDAO dao=new	ContatoDAO();;
+									
+										
 											// TODO Auto-generated catch block
-											e.printStackTrace();
-										}
+											
+										
 										dao.adiciona(contato);
 										//	imprime	o	nome	do	contato	que	foi	adicionado
 										out.println("<html>");

@@ -17,7 +17,7 @@ public class FuncionarioDAO {
 
 	private Connection connection;
 
-	public FuncionarioDAO() throws ClassNotFoundException {
+	public FuncionarioDAO()  {
 		this.connection = new ConnectionFactory().getConnection();
 	}
 

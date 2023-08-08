@@ -18,7 +18,7 @@ public class ContatoDAO {
 
 	private Connection connection;
 
-	public ContatoDAO() throws ClassNotFoundException {
+	public ContatoDAO()  {
 		this.connection = new ConnectionFactory().getConnection();
 	}
 
@@ -44,7 +44,7 @@ public class ContatoDAO {
 
 	public List<Contato> getLista() {
 		try {
-			PreparedStatement stmt = this.connection.prepareStatement("select * from contatos where nome like 'C%'");
+			PreparedStatement stmt = this.connection.prepareStatement("select * from contatos");
 			List<Contato> contatos = new ArrayList<Contato>();
 			ResultSet resultados = stmt.executeQuery();
 			while (resultados.next()) {

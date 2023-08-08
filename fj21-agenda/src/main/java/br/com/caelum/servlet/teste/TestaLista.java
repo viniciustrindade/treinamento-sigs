@@ -11,7 +11,7 @@ import br.com.caelum.servlet.modelo.dao.FuncionarioDAO;
 
 public class TestaLista {
 
-	public static void main(String[] args) throws ClassNotFoundException {
+	public static void main(String[] args) {
 
 		DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 		String dataFormatada;

@@ -12,7 +12,7 @@ import br.com.caelum.servlet.modelo.dao.FuncionarioDAO;
 
 public class TesteConexao { 
 
-	public static void main(String[] args) throws SQLException, ClassNotFoundException {
+	public static void main(String[] args) throws SQLException{
 		
 		Connection	connection	=	new	ConnectionFactory().getConnection();
 		System.out.println("Conexão	aberta!");

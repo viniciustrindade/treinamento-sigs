@@ -4,7 +4,7 @@ import br.com.caelum.servlet.modelo.dao.ContatoDAO;
 
 public class TestaDeletar {
 
-	public static void main(String[] args) throws ClassNotFoundException {
+	public static void main(String[] args)  {
 			
 		
 		ContatoDAO dao=new ContatoDAO();
