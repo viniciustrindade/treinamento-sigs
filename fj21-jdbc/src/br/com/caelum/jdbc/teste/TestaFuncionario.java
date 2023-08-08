@@ -1,6 +1,5 @@
 package br.com.caelum.jdbc.teste;
 
-import java.util.Calendar;
 import java.util.List;
 
 import br.com.caelum.jdbc.dao.FuncionarioDao;
