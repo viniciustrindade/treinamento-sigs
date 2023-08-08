@@ -10,7 +10,8 @@
 <meta charset="utf-8">
 <title>Contatos</title>
 </head>
-<body>
+<body> 
+
 <jsp:useBean id="contato" class="br.com.treinamento.servlet.modelo.Contato" />
 <jsp:useBean id="dao" class="br.com.treinamento.servlet.conexao.ContatoDao" />
 
