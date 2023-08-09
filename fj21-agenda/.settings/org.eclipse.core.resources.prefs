@@ -1,5 +1,6 @@
 eclipse.preferences.version=1
 encoding//src/main/java/br/com/caelum/agenda/servlet/AdicionaContatoServlet.java=UTF-8
+encoding//src/main/webapp/adiciona-contato.jsp=UTF-8
 encoding//src/main/webapp/lista-contatos-scriptlet.jsp=ISO-8859-1
-encoding//src/main/webapp/lista-contatos.jsp=ISO-8859-1
+encoding//src/main/webapp/lista-contatos.jsp=UTF-8
 encoding/<project>=UTF-8

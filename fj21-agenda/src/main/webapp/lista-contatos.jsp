@@ -1,3 +1,4 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@	page import="java.util.*, 
 				java.text.SimpleDateFormat,
 				java.util.Calendar,
@@ -21,7 +22,7 @@
 		
 			<c:import url="cabecalho.jsp"/>
 					
-<!-- 			<h2>Lista de Contatos</h2> -->
+<!--  			<h3>Lista de Contatos</h3> -->
 			
 			<!-- cria o DAO -->
 			<jsp:useBean id="dao" class="br.com.caelum.jdbc.dao.ContatoDao"/>
@@ -31,7 +32,7 @@
 					<tr>
 						<th>Nome</th>
 						<th>E-mail</th>
-						<th>EndereÁo</th>
+						<th>Endere√ßo</th>
 						<th>Data de nascimento</th>
 					</tr>
 			    </thead>
@@ -44,7 +45,7 @@
 									<c:when test="${not empty contato.email}">
 										<a href="mailto:${contato.email}">${contato.email}</a>
 									</c:when>
-									<c:otherwise>E-mail n„o informado</c:otherwise>
+									<c:otherwise>E-mail n√£o informado</c:otherwise>
 								</c:choose>
 							</td>
 							<td>${contato.endereco}</td>
