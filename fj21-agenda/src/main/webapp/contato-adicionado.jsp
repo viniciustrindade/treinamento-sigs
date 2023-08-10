@@ -11,14 +11,7 @@
 </head>
 	<body>
 		<div class="container mt-3">
-			<%-- comentário em JSP aqui: nossa primeira página JSP --%>
-			<% String mensagem = "<h2>Seja bem-vindo ao sistema de agenda do FJ-21!</h2>"; %>
-			<% out.println(mensagem); %>
-			<br>
-			<% String desenvolvido = "<p>Desenvolvido por (Alex Amor Divino dos Santos).</p>"; %>
-			<%= desenvolvido %>
-			<br>
-			<% System.out.println("Tudo foi executado!"); %>
+			<div class="alert alert-success" role="alert">Contado <strong>${param.nome}</strong> adicionado com sucesso.</div>
 		</div>
 	</body>
 </html>
