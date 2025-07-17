@@ -26,6 +26,58 @@ SENHA: 12345
 DATABASE: mysql
 PORT: 3306
 
+## Usar o parametro allowPublicKeyRetrievals
+
+jdbc:mysql://localhost:3306/?allowPublicKeyRetrieval=true&useSSL=false
+
+
+## Como isntalar o wsl no windows 10 (pre-requisito para instalar o docker)
+
+To install WSL 2 on Windows 10 using PowerShell, follow these steps:
+
+1. **Open PowerShell as Administrator**
+   - Press `Win + X`, then select "Windows PowerShell (Admin)".
+
+2. **Enable the WSL Feature**
+   ```powershell
+   dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+   ```
+
+3. **Enable the Virtual Machine Platform Feature**
+   ```powershell
+   dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+   ```
+
+4. **Restart Your Computer**
+   - You must restart to complete the installation.
+
+5. **Set WSL 2 as the Default Version**
+   ```powershell
+   wsl --set-default-version 2
+   ```
+
+6. **Install a Linux Distribution**
+   - You can install Ubuntu (or another distribution) from the Microsoft Store, or via PowerShell:
+   ```powershell
+   wsl --install -d Ubuntu
+   ```
+   - Or, open the Microsoft Store, search for "Ubuntu", and click "Install".
+
+7. **(Optional) Update the WSL Kernel**
+   - If prompted, download and install the latest WSL2 kernel update from:
+     [https://aka.ms/wsl2kernel](https://aka.ms/wsl2kernel)
+
+---
+
+**Summary of PowerShell Commands:**
+```powershell
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+wsl --set-default-version 2
+wsl --install -d Ubuntu
+```
+
+
 ## Instale o oracle jdk-7u80-windows-x64.exe (precisa de cadastro no site da oracle)
 https://www.oracle.com/br/java/technologies/javase/javase7-archive-downloads.html
  ou
