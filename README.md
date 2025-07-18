@@ -35,8 +35,9 @@ https://nuvem.ufba.br/s/JBAoZkA5mW04EMo (linux)
 ## Extraia o eclipse IDE nessa pasta do projeto como "eclipse"
 https://www.eclipse.org/downloads/
 
-## Baixa e descompacte na pasta do projeto como "tomcat5.5"
-https://archive.apache.org/dist/tomcat/tomcat-5/v5.5.26/bin/apache-tomcat-5.5.26.zip
+## Baixa e descompacte na pasta do projeto como "tomcat9.0"
+https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.107/bin/apache-tomcat-9.0.107.zip
+
 
 
 ## Baixa e descompacte na pasta do projeto como "mysql-connector-java"
