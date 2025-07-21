@@ -1,0 +1,66 @@
+Exception in thread "main" java.lang.UnsupportedClassVersionError: org/apache/catalina/startup/Bootstrap : Unsupported major.minor version 52.0
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:449)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:71)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:482)
+Exception in thread "main" java.lang.UnsupportedClassVersionError: org/apache/catalina/startup/Bootstrap : Unsupported major.minor version 52.0
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:449)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:71)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:482)
+18-Jul-2025 12:26:12.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.107
+18-Jul-2025 12:26:12.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 2 2025 07:01:03 UTC
+18-Jul-2025 12:26:12.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.107.0
+18-Jul-2025 12:26:12.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+18-Jul-2025 12:26:12.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.3.1
+18-Jul-2025 12:26:12.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+18-Jul-2025 12:26:12.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home
+18-Jul-2025 12:26:12.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_461-b11
+18-Jul-2025 12:26:12.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Jul-2025 12:26:12.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/mauricio/eclipse-workspace/apache-tomcat-9.0.107
+18-Jul-2025 12:26:12.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/mauricio/eclipse-workspace/apache-tomcat-9.0.107
+18-Jul-2025 12:26:13.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/mauricio/eclipse-workspace/apache-tomcat-9.0.107/conf/logging.properties
+18-Jul-2025 12:26:13.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Jul-2025 12:26:13.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+18-Jul-2025 12:26:13.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Jul-2025 12:26:13.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+18-Jul-2025 12:26:13.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+18-Jul-2025 12:26:13.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+18-Jul-2025 12:26:13.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/mauricio/eclipse-workspace/apache-tomcat-9.0.107
+18-Jul-2025 12:26:13.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/mauricio/eclipse-workspace/apache-tomcat-9.0.107
+18-Jul-2025 12:26:13.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/mauricio/eclipse-workspace/apache-tomcat-9.0.107/temp
+18-Jul-2025 12:26:13.315 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/mauricio/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+18-Jul-2025 12:26:13.771 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Jul-2025 12:26:13.783 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1056] milliseconds
+18-Jul-2025 12:26:13.797 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Jul-2025 12:26:13.797 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.107]
+18-Jul-2025 12:26:13.800 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/mauricio/eclipse-workspace/apache-tomcat-9.0.107/webapps/docs]
+18-Jul-2025 12:26:13.879 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/mauricio/eclipse-workspace/apache-tomcat-9.0.107/webapps/docs] has finished in [79] ms
+18-Jul-2025 12:26:13.879 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/mauricio/eclipse-workspace/apache-tomcat-9.0.107/webapps/manager]
+18-Jul-2025 12:26:13.893 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/mauricio/eclipse-workspace/apache-tomcat-9.0.107/webapps/manager] has finished in [14] ms
+18-Jul-2025 12:26:13.893 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/mauricio/eclipse-workspace/apache-tomcat-9.0.107/webapps/examples]
+18-Jul-2025 12:26:14.053 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/mauricio/eclipse-workspace/apache-tomcat-9.0.107/webapps/examples] has finished in [160] ms
+18-Jul-2025 12:26:14.054 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/mauricio/eclipse-workspace/apache-tomcat-9.0.107/webapps/ROOT]
+18-Jul-2025 12:26:14.059 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/mauricio/eclipse-workspace/apache-tomcat-9.0.107/webapps/ROOT] has finished in [6] ms
+18-Jul-2025 12:26:14.060 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/mauricio/eclipse-workspace/apache-tomcat-9.0.107/webapps/host-manager]
+18-Jul-2025 12:26:14.069 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/mauricio/eclipse-workspace/apache-tomcat-9.0.107/webapps/host-manager] has finished in [9] ms
+18-Jul-2025 12:26:14.071 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Jul-2025 12:26:14.076 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [293] milliseconds
