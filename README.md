@@ -26,6 +26,8 @@ SENHA: 12345
 DATABASE: mysql
 PORT: 3306
 
+jdbc:mysql://localhost:3306/?allowPublicKeyRetrieval=true&useSSL=false
+
 ## Instale o oracle jdk-7u80-windows-x64.exe (precisa de cadastro no site da oracle)
 https://www.oracle.com/br/java/technologies/javase/javase7-archive-downloads.html
  ou
